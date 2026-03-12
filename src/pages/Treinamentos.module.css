@@ -1,0 +1,30 @@
+.treinamentosPage {
+  padding-top: 100px;
+}
+
+.pageHeader {
+  text-align: center;
+  padding: 40px 0 0;
+}
+
+.pageHeader h1 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+}
+
+.pageHeader h1 span {
+  color: var(--color-wine);
+}
+
+.pageHeader p {
+  color: var(--color-gray);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .pageHeader h1 {
+    font-size: 1.8rem;
+  }
+}

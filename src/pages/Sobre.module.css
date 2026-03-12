@@ -1,0 +1,153 @@
+.sobrePage {
+  padding-top: 100px;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.introText h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.introText h2 span {
+  color: var(--color-wine);
+}
+
+.introText p {
+  color: var(--color-gray);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.introImage {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  background: linear-gradient(135deg, var(--color-bg-card) 0%, var(--color-gray-dark) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introImage .placeholder {
+  font-size: 4rem;
+  color: var(--color-wine);
+}
+
+.introImageBorder {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: -15px;
+  bottom: -15px;
+  border: 2px solid var(--color-wine);
+  border-radius: var(--radius);
+  z-index: -1;
+}
+
+.mvv {
+  background-color: var(--color-bg-light);
+}
+
+.mvvGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.mvvCard {
+  background: var(--color-bg-card);
+  border-radius: var(--radius);
+  padding: 35px 25px;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.mvvCard:hover {
+  border-color: var(--color-wine);
+  transform: translateY(-3px);
+}
+
+.mvvIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(128, 0, 32, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 1.6rem;
+  color: var(--color-wine);
+}
+
+.mvvCard h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: var(--color-white);
+}
+
+.mvvCard p {
+  color: var(--color-gray);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.certifications {
+  text-align: center;
+}
+
+.certGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.certCard {
+  background: var(--color-bg-card);
+  border-radius: var(--radius);
+  padding: 30px 20px;
+  text-align: center;
+  border: 1px solid var(--color-gray-dark);
+  transition: var(--transition);
+}
+
+.certCard:hover {
+  border-color: var(--color-wine);
+}
+
+.certIcon {
+  font-size: 2.5rem;
+  color: var(--color-wine);
+  margin-bottom: 15px;
+}
+
+.certCard h4 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: var(--color-white);
+}
+
+.certCard p {
+  font-size: 0.85rem;
+  color: var(--color-gray);
+}
+
+@media (max-width: 768px) {
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .mvvGrid {
+    grid-template-columns: 1fr;
+  }
+}

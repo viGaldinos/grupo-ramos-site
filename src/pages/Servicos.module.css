@@ -1,0 +1,72 @@
+.servicosPage {
+  padding-top: 100px;
+}
+
+.pageHeader {
+  text-align: center;
+  padding: 40px 0 0;
+}
+
+.pageHeader h1 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+}
+
+.pageHeader h1 span {
+  color: var(--color-wine);
+}
+
+.pageHeader p {
+  color: var(--color-gray);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.ctaBanner {
+  text-align: center;
+  background: linear-gradient(135deg, var(--color-wine-dark), var(--color-wine));
+  padding: 60px 20px;
+  border-radius: var(--radius);
+  margin-top: 60px;
+}
+
+.ctaBanner h3 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+
+.ctaBanner p {
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 25px;
+}
+
+.ctaBanner a {
+  display: inline-block;
+  padding: 14px 36px;
+  background: var(--color-white);
+  color: var(--color-wine);
+  font-weight: 700;
+  border-radius: var(--radius);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition);
+}
+
+.ctaBanner a:hover {
+  background: var(--color-bg);
+  color: var(--color-white);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .pageHeader h1 {
+    font-size: 1.8rem;
+  }
+}

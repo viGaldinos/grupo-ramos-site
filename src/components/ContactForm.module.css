@@ -1,0 +1,84 @@
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputGroup {
+  position: relative;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  width: 100%;
+  padding: 16px 18px;
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-gray-dark);
+  border-radius: var(--radius);
+  color: var(--color-white);
+  font-size: 1rem;
+  transition: var(--transition);
+}
+
+.inputGroup input::placeholder,
+.inputGroup textarea::placeholder {
+  color: var(--color-gray);
+}
+
+.inputGroup input:focus,
+.inputGroup textarea:focus {
+  border-color: var(--color-wine);
+  box-shadow: 0 0 0 3px rgba(128, 0, 32, 0.15);
+}
+
+.inputGroup textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.submitBtn {
+  padding: 16px 40px;
+  background-color: var(--color-wine);
+  color: var(--color-white);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid var(--color-wine);
+  transition: var(--transition);
+  align-self: center;
+}
+
+.submitBtn:hover {
+  background-color: var(--color-white);
+  color: var(--color-wine);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.success {
+  text-align: center;
+  padding: 40px;
+  background: var(--color-bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-wine);
+}
+
+.success h3 {
+  font-size: 1.4rem;
+  color: var(--color-wine);
+  margin-bottom: 10px;
+}
+
+.success p {
+  color: var(--color-gray);
+}
+
+.successIcon {
+  font-size: 3rem;
+  color: var(--color-wine);
+  margin-bottom: 15px;
+}
