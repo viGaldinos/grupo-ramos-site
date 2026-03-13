@@ -42,7 +42,7 @@ export default function Footer() {
           <h3>Contato</h3>
           <div className={styles.contactItem}>
             <FiPhone />
-            <span>(11) 99999-9999</span>
+            <span>(11) 4220-3055 | (11) 9.1006-6342</span>
           </div>
           <div className={styles.contactItem}>
             <FiMail />
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
           <div className={styles.contactItem}>
             <FiMapPin />
-            <span>São Paulo, SP - Brasil</span>
+            <span>Rua Amazonas, 792 - Centro, São Caetano do Sul - SP</span>
           </div>
         </div>
       </div>

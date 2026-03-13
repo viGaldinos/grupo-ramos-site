@@ -33,8 +33,8 @@ export default function Contato() {
                 </div>
                 <div className={styles.infoContent}>
                   <h4>Telefone</h4>
-                  <p>(11) 99999-9999</p>
-                  <p>(11) 3333-3333</p>
+                  <p>(11) 4220-3055</p>
+                  <p>(11) 9.1006-6342 (WhatsApp)</p>
                 </div>
               </div>
 
@@ -54,8 +54,8 @@ export default function Contato() {
                 </div>
                 <div className={styles.infoContent}>
                   <h4>Endereço</h4>
-                  <p>Av. Exemplo, 1234 - Centro</p>
-                  <p>São Paulo, SP - CEP 01000-000</p>
+                  <p>Rua Amazonas, 792 - Centro</p>
+                  <p>São Caetano do Sul - SP</p>
                 </div>
               </div>
 
@@ -70,8 +70,17 @@ export default function Contato() {
                 </div>
               </div>
 
-              <div className={styles.mapPlaceholder}>
-                📍 Mapa será integrado aqui (Google Maps)
+              <div className={styles.mapContainer}>
+                <iframe
+                  title="Localização Ramos Treinamentos"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.5!2d-46.5547!3d-23.6217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b2c1b7e9b1d%3A0x0!2sRua%20Amazonas%2C%20792%20-%20Centro%2C%20S%C3%A3o%20Caetano%20do%20Sul%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
             </div>
 

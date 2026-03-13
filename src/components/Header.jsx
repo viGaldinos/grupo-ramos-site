@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import logo from '../assets/logo.png';
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -21,7 +22,7 @@ export default function Header() {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.headerContainer}>
         <Link to="/" className={styles.logo} onClick={closeMenu}>
-          <div className={styles.logoIcon}>R</div>
+          <img src={logo} alt="Ramos Treinamentos" className={styles.logoImg} />
           Ramos <span>Treinamentos</span>
         </Link>
 
