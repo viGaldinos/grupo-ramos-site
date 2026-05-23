@@ -9,6 +9,7 @@ import {
   FiAward,
   FiBriefcase,
   FiFileText,
+  FiAlertTriangle,
 } from 'react-icons/fi';
 import styles from './Home.module.css';
 
@@ -48,6 +49,18 @@ const services = [
     title: 'Serviço de AVCB e Laudos',
     description:
       'Assessoria completa para obtenção do Auto de Vistoria do Corpo de Bombeiros e elaboração de laudos técnicos.',
+  },
+  {
+    icon: <FiAlertTriangle />,
+    title: 'Postes de Vigilância',
+    description:
+      'Fornecimento e instalação de postes de vigilância para monitoramento perimetral de condomínios e empresas.',
+  },
+  {
+    icon: <FiUsers />,
+    title: 'Palestra de Conscientização',
+    description:
+      'Palestras de conscientização em segurança para condôminos e conselheiros, promovendo cultura de prevenção.',
   },
 ];
 

@@ -107,7 +107,7 @@ export default function Sobre() {
             <div className={styles.certCard}>
               <div className={styles.certIcon}><FiStar /></div>
               <h4>Instrutores Certificados</h4>
-              <p>Corpo docente com certificações nacionais e internacionais.</p>
+              <p>Corpo docente com certificações nacionais reconhecidas, formando uma equipe multidisciplinar de especialistas.</p>
             </div>
             <div className={styles.certCard}>
               <div className={styles.certIcon}><FiShield /></div>
