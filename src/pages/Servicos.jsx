@@ -2,14 +2,15 @@ import { Link } from 'react-router-dom';
 import ServiceCard from '../components/ServiceCard';
 import {
   FiShield,
-  FiTruck,
   FiMonitor,
   FiUsers,
   FiBook,
-  FiTarget,
   FiLock,
   FiAlertTriangle,
   FiCrosshair,
+  FiAward,
+  FiBriefcase,
+  FiFileText,
 } from 'react-icons/fi';
 import styles from './Servicos.module.css';
 
@@ -18,19 +19,25 @@ const services = [
     icon: <FiShield />,
     title: 'Vigilância Patrimonial',
     description:
-      'Formação completa de vigilantes com certificação reconhecida pela Polícia Federal. Módulos teóricos e práticos.',
+      'Serviço terceirizado de vigilância com profissionais treinados para proteção patrimonial. Certificação reconhecida pela Polícia Federal.',
   },
   {
-    icon: <FiTruck />,
-    title: 'Escolta Armada',
+    icon: <FiAward />,
+    title: 'Capacitação de Vigilantes',
     description:
-      'Capacitação especializada em escolta armada, transporte de valores e proteção de cargas de alto risco.',
+      'Formação completa de vigilantes com certificação nacional. Programas teóricos e práticos conforme normas regulamentadoras.',
+  },
+  {
+    icon: <FiBriefcase />,
+    title: 'Consultoria em Segurança',
+    description:
+      'Análise de vulnerabilidades, planejamento estratégico e consultoria especializada para empresas, condomínios e eventos.',
   },
   {
     icon: <FiMonitor />,
-    title: 'Monitoramento Eletrônico',
+    title: 'Monitoramento, Sistemas Integrados CFTV, Alarmes',
     description:
-      'Treinamento em CFTV, sistemas de alarme, controle de acesso e centrais de monitoramento 24 horas.',
+      'Soluções integradas em CFTV, sistemas de alarme, controle de acesso e centrais de monitoramento 24 horas.',
   },
   {
     icon: <FiUsers />,
@@ -40,15 +47,15 @@ const services = [
   },
   {
     icon: <FiBook />,
-    title: 'Cursos de Reciclagem',
+    title: 'Treinamento para Profissionais de Portaria',
     description:
-      'Atualização profissional obrigatória para renovação de certificados de vigilante e extensões.',
+      'Capacitação especializada para porteiros e recepcionistas, com foco em atendimento, controle de acesso e protocolos de segurança.',
   },
   {
-    icon: <FiTarget />,
-    title: 'Tiro Defensivo',
+    icon: <FiFileText />,
+    title: 'Serviço de AVCB e Laudos',
     description:
-      'Treinamento prático de armamento e tiro em estande credenciado, com instrutores certificados.',
+      'Assessoria completa para obtenção do Auto de Vistoria do Corpo de Bombeiros (AVCB) e elaboração de laudos técnicos de segurança.',
   },
   {
     icon: <FiLock />,
@@ -80,8 +87,8 @@ export default function Servicos() {
               Nossos <span>Serviços</span>
             </h1>
             <p>
-              Conheça toda a nossa gama de treinamentos e serviços especializados
-              para o setor de segurança privada.
+              Conheça toda a nossa gama de serviços especializados em
+              monitoramento, segurança integrada e capacitação profissional.
             </p>
           </div>
         </div>

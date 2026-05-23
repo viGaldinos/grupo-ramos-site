@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import ServiceCard from '../components/ServiceCard';
+import Carousel from '../components/Carousel';
 import {
   FiShield,
-  FiTruck,
   FiMonitor,
   FiUsers,
-  FiBook,
-  FiTarget,
+  FiAward,
+  FiBriefcase,
+  FiFileText,
 } from 'react-icons/fi';
 import styles from './Home.module.css';
 
@@ -16,37 +17,37 @@ const services = [
     icon: <FiShield />,
     title: 'Vigilância Patrimonial',
     description:
-      'Treinamento completo para formação de vigilantes com certificação reconhecida nacionalmente.',
+      'Serviço terceirizado de vigilância com profissionais treinados e certificados para proteção do seu patrimônio.',
   },
   {
-    icon: <FiTruck />,
-    title: 'Escolta Armada',
+    icon: <FiAward />,
+    title: 'Capacitação de Vigilantes',
     description:
-      'Capacitação especializada em técnicas de escolta e proteção de cargas e pessoas.',
+      'Formação completa de vigilantes com certificação reconhecida nacionalmente pela Polícia Federal.',
+  },
+  {
+    icon: <FiBriefcase />,
+    title: 'Consultoria em Segurança',
+    description:
+      'Análise de vulnerabilidades, planejamento estratégico e consultoria especializada para empresas.',
   },
   {
     icon: <FiMonitor />,
-    title: 'Monitoramento Eletrônico',
+    title: 'Monitoramento, Sistemas Integrados CFTV e Alarmes',
     description:
-      'Formação em sistemas de CFTV, alarmes e centrais de monitoramento 24h.',
+      'Soluções completas em CFTV, alarmes, controle de acesso e centrais de monitoramento 24 horas.',
   },
   {
     icon: <FiUsers />,
-    title: 'Segurança Pessoal',
+    title: 'Treinamento para Profissionais de Portaria',
     description:
-      'Treinamento para profissionais de proteção pessoal e segurança executiva.',
+      'Capacitação especializada para porteiros com foco em atendimento, controle de acesso e protocolos de segurança.',
   },
   {
-    icon: <FiBook />,
-    title: 'Cursos de Reciclagem',
+    icon: <FiFileText />,
+    title: 'Serviço de AVCB e Laudos',
     description:
-      'Atualização profissional obrigatória para renovação de certificados.',
-  },
-  {
-    icon: <FiTarget />,
-    title: 'Tiro Defensivo',
-    description:
-      'Treinamento prático de armamento e tiro com instrutores qualificados.',
+      'Assessoria completa para obtenção do Auto de Vistoria do Corpo de Bombeiros e elaboração de laudos técnicos.',
   },
 ];
 
@@ -61,14 +62,26 @@ export default function Home() {
             Nossos <span>Serviços</span>
           </h2>
           <p className="section-subtitle">
-            Oferecemos uma gama completa de treinamentos e serviços para o setor
-            de segurança privada.
+            Oferecemos soluções completas em segurança, monitoramento e capacitação
+            profissional para o setor de segurança privada.
           </p>
           <div className={styles.servicesGrid}>
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className={`section ${styles.partnersSection}`}>
+        <div className="container">
+          <h2 className="section-title">
+            Nossos <span>Parceiros</span>
+          </h2>
+          <p className="section-subtitle">
+            Empresas e organizações que confiam nas nossas soluções de segurança.
+          </p>
+          <Carousel />
         </div>
       </section>
 

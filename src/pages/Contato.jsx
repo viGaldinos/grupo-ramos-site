@@ -44,7 +44,7 @@ export default function Contato() {
                 </div>
                 <div className={styles.infoContent}>
                   <h4>E-mail</h4>
-                  <p>contato@ramostreinamentos.com.br</p>
+                  <p>comercialgruporamos@terra.com.br</p>
                 </div>
               </div>
 

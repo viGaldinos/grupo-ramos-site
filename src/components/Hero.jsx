@@ -6,14 +6,14 @@ export default function Hero() {
     <section className={styles.hero}>
       <div className={styles.heroBg} />
       <div className={styles.heroContent}>
-        <span className={styles.heroTag}>Treinamento & Capacitação</span>
+        <span className={styles.heroTag}>Segurança & Monitoramento Integrado</span>
         <h1 className={styles.heroTitle}>
           Formando Profissionais <span>de Excelência</span>
         </h1>
         <p className={styles.heroDescription}>
-          A Ramos Treinamentos é referência em capacitação profissional na área
-          de segurança. Oferecemos cursos, treinamentos e consultoria com os
-          mais altos padrões de qualidade.
+          O Grupo Ramos é especializado em monitoramento e segurança integrada.
+          Oferecemos soluções completas em CFTV, alarmes, consultoria e capacitação
+          profissional com os mais altos padrões de qualidade.
         </p>
         <div className={styles.heroButtons}>
           <Link to="/contato" className="btn btn-primary">

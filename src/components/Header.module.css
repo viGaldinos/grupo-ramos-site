@@ -29,13 +29,32 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1.4rem;
-  font-weight: 700;
   color: var(--color-white);
 }
 
-.logo span {
+.logoText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.logoName {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.logoHighlight {
   color: var(--color-wine);
+}
+
+.logoSubtitle {
+  font-size: 0.58rem;
+  font-weight: 400;
+  color: var(--color-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  line-height: 1;
 }
 
 .logoIcon {
