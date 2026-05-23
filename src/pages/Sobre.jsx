@@ -1,4 +1,5 @@
 import { FiTarget, FiEye, FiHeart, FiAward, FiCheckCircle, FiStar, FiShield } from 'react-icons/fi';
+import fotoSobre from '../assets/foto_sobre.jpg';
 import styles from './Sobre.module.css';
 
 export default function Sobre() {
@@ -29,9 +30,7 @@ export default function Sobre() {
               </p>
             </div>
             <div className={styles.introImage}>
-              <div className={styles.placeholder}>
-                <FiShield />
-              </div>
+              <img src={fotoSobre} alt="Grupo Ramos" className={styles.introImg} />
               <div className={styles.introImageBorder} />
             </div>
           </div>
