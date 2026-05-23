@@ -45,7 +45,7 @@
 }
 
 .logoHighlight {
-  color: var(--color-wine);
+  color: var(--color-white);
 }
 
 .logoSubtitle {
@@ -70,8 +70,8 @@
 }
 
 .logoImg {
-  width: 45px;
-  height: 45px;
+  width: 62px;
+  height: 62px;
   object-fit: contain;
   border-radius: 4px;
 }
