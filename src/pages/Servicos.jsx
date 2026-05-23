@@ -75,6 +75,18 @@ const services = [
     description:
       'Formação de supervisores e gestores de equipes de segurança com foco em liderança operacional.',
   },
+  {
+    icon: <FiAlertTriangle />,
+    title: 'Postes de Vigilância',
+    description:
+      'Fornecimento e instalação de postes de vigilância para monitoramento perimetral de condomínios, empresas e espaços públicos.',
+  },
+  {
+    icon: <FiUsers />,
+    title: 'Palestra de Conscientização',
+    description:
+      'Palestras especializadas de conscientização em segurança para condôminos e conselheiros, promovendo cultura de prevenção.',
+  },
 ];
 
 export default function Servicos() {
