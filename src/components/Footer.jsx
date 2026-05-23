@@ -20,6 +20,9 @@ export default function Footer() {
             <a href="https://www.facebook.com/rramostreinamentos?locale=pt_BR" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="Facebook">
               <FaFacebookF />
             </a>
+            <a href="#" className={styles.socialLink} aria-label="LinkedIn">
+              <FaLinkedinIn />
+            </a>
             <a href="https://wa.me/5511910066342" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="WhatsApp">
               <FaWhatsapp />
             </a>
