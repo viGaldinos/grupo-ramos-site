@@ -8,10 +8,10 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerGrid}>
         <div className={styles.footerCol}>
-          <h3>Ramos Treinamentos</h3>
+          <h3>Grupo Ramos</h3>
           <p>
-            Excelência em treinamentos e capacitação profissional. Formando
-            profissionais preparados para os desafios do mercado de segurança.
+            Especialistas em monitoramento e segurança integrada. Soluções completas
+            em CFTV, alarmes, consultoria e capacitação profissional.
           </p>
           <div className={styles.socialLinks}>
             <a href="#" className={styles.socialLink} aria-label="Instagram">
@@ -34,6 +34,7 @@ export default function Footer() {
           <p><Link to="/">Início</Link></p>
           <p><Link to="/sobre">Sobre Nós</Link></p>
           <p><Link to="/servicos">Serviços</Link></p>
+          <p><Link to="/parceiros">Parceiros</Link></p>
           <p><Link to="/treinamentos">Treinamentos</Link></p>
           <p><Link to="/contato">Contato</Link></p>
         </div>
@@ -46,7 +47,7 @@ export default function Footer() {
           </div>
           <div className={styles.contactItem}>
             <FiMail />
-            <span>contato@ramostreinamentos.com.br</span>
+            <span>comercialgruporamos@terra.com.br</span>
           </div>
           <div className={styles.contactItem}>
             <FiMapPin />
@@ -56,7 +57,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.footerBottom}>
-        &copy; {new Date().getFullYear()} <span>Ramos Treinamentos</span>. Todos os direitos reservados.
+        &copy; {new Date().getFullYear()} <span>Grupo Ramos</span>. Todos os direitos reservados.
       </div>
     </footer>
   );

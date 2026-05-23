@@ -2,6 +2,10 @@
   background-color: var(--color-bg-light);
 }
 
+.partnersSection {
+  background-color: var(--color-bg);
+}
+
 .servicesGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

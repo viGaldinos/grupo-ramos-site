@@ -22,8 +22,11 @@ export default function Header() {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.headerContainer}>
         <Link to="/" className={styles.logo} onClick={closeMenu}>
-          <img src={logo} alt="Ramos Treinamentos" className={styles.logoImg} />
-          Ramos <span>Treinamentos</span>
+          <img src={logo} alt="Grupo Ramos" className={styles.logoImg} />
+          <div className={styles.logoText}>
+            <span className={styles.logoName}>Grupo <span className={styles.logoHighlight}>Ramos</span></span>
+            <span className={styles.logoSubtitle}>monitoramento e segurança integrada</span>
+          </div>
         </Link>
 
         <button
@@ -73,6 +76,15 @@ export default function Header() {
             onClick={closeMenu}
           >
             Treinamentos
+          </NavLink>
+          <NavLink
+            to="/parceiros"
+            className={({ isActive }) =>
+              `${styles.navLink} ${isActive ? styles.active : ''}`
+            }
+            onClick={closeMenu}
+          >
+            Parceiros
           </NavLink>
           <NavLink
             to="/contato"
