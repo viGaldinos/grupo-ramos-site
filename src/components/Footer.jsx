@@ -14,16 +14,13 @@ export default function Footer() {
             em CFTV, alarmes, consultoria e capacitação profissional.
           </p>
           <div className={styles.socialLinks}>
-            <a href="#" className={styles.socialLink} aria-label="Instagram">
+            <a href="https://www.instagram.com/monitoramentogruporamos/" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="Instagram">
               <FaInstagram />
             </a>
-            <a href="#" className={styles.socialLink} aria-label="Facebook">
+            <a href="https://www.facebook.com/rramostreinamentos?locale=pt_BR" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="Facebook">
               <FaFacebookF />
             </a>
-            <a href="#" className={styles.socialLink} aria-label="LinkedIn">
-              <FaLinkedinIn />
-            </a>
-            <a href="#" className={styles.socialLink} aria-label="WhatsApp">
+            <a href="https://wa.me/5511910066342" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="WhatsApp">
               <FaWhatsapp />
             </a>
           </div>

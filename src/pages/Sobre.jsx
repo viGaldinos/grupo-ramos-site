@@ -64,8 +64,9 @@ export default function Sobre() {
               </div>
               <h3>Visão</h3>
               <p>
-                Ser reconhecida como a principal referência nacional em
-                treinamento e capacitação de profissionais de segurança privada.
+                Ser reconhecido como uma referência nacional em segurança
+                privada e eletrônica, oferecendo soluções integradas e
+                capacitação profissional de excelência.
               </p>
             </div>
             <div className={styles.mvvCard}>
