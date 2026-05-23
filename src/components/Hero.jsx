@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
         <div className={styles.heroStats}>
           <div className={styles.stat}>
-            <div className={styles.statNumber}>500+</div>
+            <div className={styles.statNumber}>300+</div>
             <div className={styles.statLabel}>Profissionais Formados</div>
           </div>
           <div className={styles.stat}>
