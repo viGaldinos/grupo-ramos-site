@@ -11,12 +11,12 @@
   --color-bg: #121212;
   --color-bg-light: #1a1a1a;
   --color-bg-card: #1e1e1e;
-  --color-wine: #800020;
-  --color-wine-dark: #5c0017;
-  --color-wine-light: #a3002a;
+  --color-wine: #1565C0;
+  --color-wine-dark: #0D47A1;
+  --color-wine-light: #1E88E5;
   --color-white: #ffffff;
-  --color-gray: #b0b0b0;
-  --color-gray-light: #e0e0e0;
+  --color-gray: #AAB4C4;
+  --color-gray-light: #C8D2DC;
   --color-gray-dark: #333333;
 
   --font-primary: 'Roboto', 'Open Sans', sans-serif;
@@ -24,7 +24,7 @@
 
   --transition: all 0.3s ease;
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  --shadow-hover: 0 8px 30px rgba(128, 0, 32, 0.2);
+  --shadow-hover: 0 8px 30px rgba(21, 101, 192, 0.3);
   --radius: 8px;
 }
 
