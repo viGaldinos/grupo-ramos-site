@@ -6,7 +6,7 @@ export default function Hero() {
     <section className={styles.hero}>
       <div className={styles.heroBg} />
       <div className={styles.heroContent}>
-        <span className={styles.heroTag}>Segurança & Monitoramento Integrado</span>
+        <span className={styles.heroTag}>Monitoramento e Segurança Integrada</span>
         <h1 className={styles.heroTitle}>
           Formando Profissionais <span>de Excelência</span>
         </h1>
