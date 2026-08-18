@@ -34,6 +34,7 @@ export default function Footer() {
           <p><Link to="/">Início</Link></p>
           <p><Link to="/sobre">Sobre Nós</Link></p>
           <p><Link to="/servicos">Serviços</Link></p>
+          <p><Link to="/poste-de-monitoramento">Poste de Monitoramento</Link></p>
           <p><Link to="/parceiros">Parceiros</Link></p>
           <p><Link to="/treinamentos">Treinamentos</Link></p>
           <p><Link to="/contato">Contato</Link></p>

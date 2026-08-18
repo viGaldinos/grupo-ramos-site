@@ -69,6 +69,15 @@ export default function Header() {
             Serviços
           </NavLink>
           <NavLink
+            to="/poste-de-monitoramento"
+            className={({ isActive }) =>
+              `${styles.navLink} ${isActive ? styles.active : ''}`
+            }
+            onClick={closeMenu}
+          >
+            Poste de Monitoramento
+          </NavLink>
+          <NavLink
             to="/treinamentos"
             className={({ isActive }) =>
               `${styles.navLink} ${isActive ? styles.active : ''}`
