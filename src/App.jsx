@@ -8,6 +8,7 @@ import Servicos from './pages/Servicos';
 import Treinamentos from './pages/Treinamentos';
 import Contato from './pages/Contato';
 import Parceiros from './pages/Parceiros';
+import PosteMonitoramento from './pages/PosteMonitoramento';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -28,6 +29,7 @@ export default function App() {
           <Route path='/sobre' element={<Sobre />} />
           <Route path='/servicos' element={<Servicos />} />
           <Route path='/parceiros' element={<Parceiros />} />
+          <Route path='/poste-de-monitoramento' element={<PosteMonitoramento />} />
           <Route path='/treinamentos' element={<Treinamentos />} />
           <Route path='/contato' element={<Contato />} />
         </Routes>
