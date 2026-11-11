@@ -20,15 +20,22 @@
 }
 
 .card {
-  background: var(--color-bg-card);
+  background: #ffffff;
   border: 1px solid var(--color-gray-dark);
   border-radius: var(--radius);
-  padding: 40px 20px;
-  min-height: 130px;
+  padding: 14px 16px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: var(--transition);
+}
+
+.logo {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .card:hover {
@@ -37,7 +44,7 @@
 }
 
 .partnerName {
-  color: var(--color-gray);
+  color: #333333;
   font-weight: 600;
   font-size: 1rem;
   text-align: center;
